@@ -14,12 +14,14 @@ em {
 	color: darkred;
 }
 
+.content {border: 10px;}
+
 .variant-em {
-	/*font-weight: bold;*/
-	/*font-style: inherit;*/
-	/*color: black;*/
-	/*background-color: greenyellow;*/
-}
+	font-weight: bold;
+	font-style: inherit;
+	color: black;
+	background-color: greenyellow;}
+
 
 ul {
 	background-color: unset;
@@ -29,17 +31,17 @@ ul li {
 	padding: 16px;
 }
 
-.link1 a {
-	/*color: inherit;*/
-	/*padding: inherit;*/
+.link1a {
+	color: inherit;
+	padding: inherit;
 }
 
-.link2 a {
-	/*color: initial;
-	padding: initial;*/
+.link2a {
+	color: initial;
+	padding: initial;
 }
 
-.link3 a {
-	/*color: unset;
-	padding: unset;*/
+.link3a {
+	color: unset;
+	padding: unset;
 }
