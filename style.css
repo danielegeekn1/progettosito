@@ -1,0 +1,19 @@
+table           {border:1px;
+                 color:#263238;
+                 width: 50%;}
+
+table + caption {font-weight: bold;
+                 color:#263238;
+                 margin: 1px 1px 1px 1px;
+                 font-size:18px;}
+
+table>thead     {background-color: #455a64;
+                 color:white;
+                 font-weight: 700;}
+
+                 table > tbody > tr:nth-child(even) {
+                    background: #eceff1;
+                }
+                table > tbody > tr:nth-child(odd) {
+                    background: #b0bec5;
+                }
